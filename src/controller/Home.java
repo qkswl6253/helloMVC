@@ -35,6 +35,7 @@ public class Home extends HttpServlet {
 			page="/view/loginform.jsp";
 		else
 			page="/view/help.jsp";
+		//commit  ¿ë
 		RequestDispatcher dispatcher = request.getRequestDispatcher(page);
 		dispatcher.forward(request, response);
 	}
